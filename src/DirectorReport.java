@@ -24,9 +24,3 @@ public class DirectorReport implements DirectorReportable{
         System.out.println("budget="+budgetResult);
     }
 }
-/*
-double budgetResult = 0;
-        for (var stuff: director.stuffList) {
-            budgetResult += stuff.getHourly_Rate() * stuff.getCompleted_hours_for_each_month();
-        }
-*/
