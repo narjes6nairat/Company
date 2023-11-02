@@ -11,7 +11,7 @@ This repository contains a small application I designed and implemented for a co
 
 In developing this application, I adhered to several key software design principles to ensure a robust and maintainable codebase:
 
-- **Encapsulation and Polymorphism**: I defined the `Attribot` assembly to preserve the principle of encapsulation and polymorphism, making the code maintainable and extensible.
+- **Encapsulation and Polymorphism**: I defined the private attribute to preserve the principle of encapsulation and polymorphism, making the code maintainable and extensible.
 
 - **Loose Coupling and High Cohesion**: The code is designed to have loose coupling and high cohesion to ensure the principle of reusability, flexibility, and testability.
 
