@@ -1,6 +1,4 @@
-import java.util.Arrays;
-
-public abstract class Employee {
+public abstract class Employee implements Payable {
         private int ID;
         private String Name;
         private int Age;
@@ -60,6 +58,7 @@ public abstract class Employee {
             database = Database.getInstance(DatabaseUrl);
             database.executeQuery(query);
         }
+        @Override
         public double MonthlyPay() {
             return hourlyRate * completedHours;
         }
